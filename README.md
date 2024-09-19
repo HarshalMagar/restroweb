@@ -1,3 +1,3 @@
 # restroweb
-this is my first website restroweb
-Author-harshal magar
+this is my first website restroweb.
+  Author-Harshal Magar
