@@ -1,0 +1,837 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&family=Poppins:ital,wght@0,400;0,700;1,200&family=Roboto:ital,wght@0,400;0,700;1,300&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-text-color: #183b56;
+    --secondary-text-color: #577592;
+    --accent-color-dark: #2294ed;
+    --accent-color-dark: #1d69a3;
+    --padding-inline-section: 20px;
+
+}
+
+body {
+    font-family: 'poppins', sans-serif;
+    color: var(--primary-text-color);
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+h1 {
+    font-size: 2.8rem;
+}
+h4{
+    color: white;
+    text-align: center;
+}
+
+.food{
+    font-family: "Playwrite CU", cursive;
+    font-size:25px;
+}
+
+
+ul {
+    list-style: none;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+
+
+}
+
+.hover-link::after {
+
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: blue;
+    transition: width .5s;
+}
+
+.hover-link:hover::after {
+    width: 100%;
+    transition: width .5s;
+}
+
+
+
+
+
+
+.primary-button {
+    background-color: red;
+    border-radius: 50px;
+    font-weight: 700;
+    color: white !important;
+    padding: 7px 20px;
+    margin-block: 10px;
+    box-shadow: 0 0 2px var(--secondary-text-color);
+    transition: 0.2s ease-out;
+    width: 150px;
+
+}
+
+
+.primary-button:hover {
+    background-color: var(--secondary-text-color);
+}
+
+
+
+.main-nav {
+    margin-top: 20px;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    margin: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    
+
+
+
+}
+
+
+.nav-links {
+    flex-basis: 750spx;
+}
+
+.nav-links ul {
+    justify-content: end;
+    gap: 30px;
+
+
+}
+
+
+.hover-link {
+    color: white;
+
+
+
+}
+
+/* header  */
+
+.headerimage{
+    z-index: -1;
+}
+
+.headerimage img {
+    width: 1349px;
+    height: 530px;
+}
+
+
+.enjoy {
+    position: absolute;
+    color: white;
+    right: 900px;
+    top: 150px;
+    margin-left: 15px;
+}
+
+.Watch {
+    margin-left: 20px;
+    font-size: 30px;
+    margin-top: 40px;
+}
+
+.Watch span {
+    color: white;
+    padding-left: 10px;
+}
+
+/* about section */
+
+.about{
+text-align: center;
+font-family:"Roboto", sans-serif;
+font-size: 40px;
+margin-top: 20px;
+}
+
+.about-section p{
+    text-align: center;
+    font-size: 30px;
+   color: var(--secondary-text-color);
+
+}
+
+
+
+    
+.big-feature-section{
+    padding: 30px var(--padding-inline-section) 0;
+
+}
+
+.big-feature-container{
+    gap: 50px;
+    
+}
+
+.feature-img img{
+    width: 800px;
+    height: 600px;
+    
+}
+.feature-img{
+    z-index: -1;
+}
+
+.feature-desc{
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.feature-desc p{
+    text-align:start;
+    font-size: 15.30px;
+    
+}
+
+.booking{
+    position: absolute;
+    color:black;
+    left: 30px;
+    top: 800px;
+    margin-left: 15px;
+    background-color: white;
+    width: 300px;
+    text-align: center;
+    
+}
+
+.booking p{
+    color: red;
+    text-align: center;
+}
+
+
+.resto{
+   height: 265px;
+   width: 480px;
+}
+
+
+ 
+ .examples-area{
+    
+     margin: 0;
+     background-color:gainsboro;
+     height: 600px;
+     
+     
+ }
+
+ 
+ 
+ .examples-card{
+     width: 18%;
+     padding: 15px;
+     position: relative;
+     min-height: 350px;
+     background-color: white;
+     background-size: cover;
+     transition: 0.2s ease-out;
+     margin-right: 30px;
+     margin-left: 40px;
+     justify-content: space-between;
+     
+    
+    
+    
+ }
+
+
+.examples-card p{
+    margin-top: 80px;
+}
+
+.examples-card h4{
+    margin-top: 20px;
+}
+
+.examples-card h1{
+    text-align: center;
+}
+
+
+
+ .examples-card:hover{
+     box-shadow: 0 0 20px purple;
+     transform: scale(1.2);
+ }
+
+ 
+ .card-text{
+     position: absolute;
+     
+     
+     left: 20px;
+     right: 20px;
+     color:black;
+ }
+
+.card{
+    width: 23%;
+    padding: 15px;
+    height: 450px;
+    background-color:red;
+    margin-left: 30px;  
+    transition: 0.2s ease-out;
+}
+
+.card-texts{
+    color: black;
+}
+
+ 
+
+.card:hover{
+    box-shadow: 0 0 20px red;
+}
+
+.cardbook{
+    background-color: white;
+    border-radius: 50px;
+    font-weight: 200;
+    margin-block: 10px;
+    width: 150px;
+    height:30px ;
+    position: absolute;
+    color: black;
+    margin-left:100px;
+    margin-top: 370px;
+    text-align: center;
+    
+}
+
+
+/* clients */
+
+.client img{
+    height: 270px;
+    width: 100%;
+}
+
+.counter{
+    position: absolute;
+    gap: 270px;
+    margin-left: 40px;
+    text-align: center;
+
+    
+}
+
+.counter h1{
+    font-size: 60px;
+    color: black;
+    
+}
+
+.counter p{
+    color: red;
+    font-size: 20px;
+    
+}
+
+
+/* menue */
+
+.menu{
+    text-align: center;
+    font-size: 40px;
+}
+
+
+.link{
+    font-size:20px;
+    color: black;
+    
+}
+
+.menulink{
+    justify-content: center;
+    gap: 80px;
+    margin-top: 30px;
+}
+
+.menu h2{
+    color: red;
+}
+
+
+.features-area{
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 40px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.features-card{
+    flex-direction: column;
+    gap: 20px;
+    max-width: 30%;
+    text-align: center;
+}
+
+.features-card img{
+    width: 400px;
+    gap: 100%;
+}
+
+.features-area h3{
+    color: red;
+}
+
+
+/* testomonial */
+
+
+
+.testimonials {
+    height: 500px;
+    width: 100%;
+    background-color: #EEEEEE;
+    margin-top: 100px;
+}
+
+.testimonials h1 {
+    text-align: center !important;
+    margin-top: 5px;
+}
+
+.testimonials h4 {
+    text-align: center !important;
+    margin-top: 10px;
+
+}
+
+
+.testbox1 {
+    float: left;
+    width: 40%;
+    height: 250px;
+    border-left: 2px solid purple;
+    margin-top: 100px;
+    margin-left: 400px;
+
+}
+
+.testbox1 i {
+    color: #FFC107;
+    margin-left: 13px;
+}
+
+.testimonials h4{
+    color: black;
+}
+
+
+.testbox2 {
+    float: left;
+    margin-top: 100px;
+}
+
+.testbox2 img {
+    border-radius: 50%;
+    border: 3px solid purple;
+}
+
+
+/* events */
+
+.Ev {
+    text-align: center;
+}
+
+.Ev h3 {
+    font-size: 25px;
+    font-family: 'Dancing Script';
+}
+
+.mainparty{
+    width: 100%;
+    height: 520px;
+   
+}
+.partydetail{
+    position: relative;
+    top: 250px;
+    color: white;
+    margin-left: 10px;
+}
+.partydetail h2{
+    font-size: 30px;
+}
+.partydetail p{
+    font-size: 17px;
+}
+
+.event1 {
+    height: 520px;
+    width: 33.33%;
+    float: left;
+    background: url(./assets/asset\ 19.jpeg) no-repeat center/cover;
+    
+ 
+}   
+
+.event2 {
+    height: 520px;
+    width: 33.33%;
+    float: left;
+    background: url(./assets/asset\ 20.jpeg) no-repeat center/cover;
+   
+}
+
+.event3 {
+    height: 520px;
+    width: 33.33%;
+    float: left;
+    background: url(./assets/asset\ 21.jpeg) no-repeat center/cover;
+    
+}
+
+.hsla_box1{
+    background-color: hsla(0, 0%, 0%, 0.5);
+    height: 100%;
+    width: 100%;
+}
+
+.hsla_box2{
+    background-color: hsla(0, 0%, 0%, 0.5);
+    height: 100%;
+    width: 100%; 
+}
+
+.hsla_box3{
+    background-color: hsla(0, 0%, 0%, 0.5);
+    height: 100%;
+    width: 100%;
+}
+
+/* chef section */
+
+ .chefs-section{
+    margin: 0;
+    background-color:gainsboro;
+    height: 760px;
+    text-align: center;
+    
+}
+
+
+
+
+
+.chef-card{
+    width: 30%;
+    
+    position: relative;
+    min-height: 300px;
+    background-color: white;
+    background-size: cover;
+    transition: 0.2s ease-out;
+ 
+    justify-content: space-between;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 40px;
+    border-radius: 24px;
+     
+   
+}
+
+
+.chef-card p{
+   margin-top: 80px;
+   color: black;
+   margin-top: 20px;
+}
+
+
+
+.chef-card img{
+   width:400px;
+   border-radius: 25px;
+}
+
+
+
+.chef-card:hover{
+    box-shadow: 0 0 20px purple;
+    transform: scale(1.1);
+}
+
+
+.card-text{
+    position: absolute;
+    
+    
+    left: 20px;
+    right: 20px;
+    color:black;
+}
+
+
+
+.card-texts{
+   color: black;
+}
+
+
+.card:hover{
+   box-shadow: 0 0 20px red;
+   
+}
+
+
+/* forms section */
+
+.forms{
+    height: 600px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.form{
+    background-color:gainsboro;
+    height: 450px;
+    width: 1100px;
+    margin-left:140px;
+    margin-top: 40px;
+}
+
+.form img{
+    height:450px;
+    float: left;
+}
+
+.form input{
+    width: 300px;
+    height: 40px;
+    
+    margin-top: 30px;
+    margin-right: 30px;
+
+} 
+
+#text1{
+    height: 130px;
+    width: 640px;
+    margin-top: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+
+
+.cardbook1{
+    background-color:red;
+    border-radius: 50px;
+    font-weight: 200;
+    margin-block: 10px;
+    width: 150px;
+    height:30px ;
+    
+    color:white;
+    
+    text-align: center;
+    
+}
+
+/* gallary */
+
+.gallary{
+    text-align: center;
+    height: 450px;
+    width: 100%;
+    margin-top: 40px;
+    background-color:gainsboro;
+}
+
+.gallarys img{
+    width: 20%;
+    height: 350px;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+
+/* maps */
+
+.contact{
+    text-align: center;
+    height: 1000px;
+    margin-top: 30px;
+}
+
+.map iframe{
+    width: 80%;
+    height: 300px;
+}
+
+
+
+.contact i{
+    color: red;
+    font-size: 40px;
+    
+    
+
+
+}
+
+
+
+.add1{
+    background-color:gainsboro;
+    width: 500px;
+    height: 100px;
+    font-size: 20px;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+
+.add2{
+    background-color:gainsboro;
+    width: 500px;
+    height: 100px;
+    font-size: 20px;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.add3{
+    background-color:gainsboro;
+    width: 500px;
+    height: 100px;
+    font-size: 20px;
+    margin-left: 800px;
+   
+    
+}
+
+.add4{
+    background-color:gainsboro;
+    width: 500px;
+    height: 100px;
+    font-size: 20px;
+    margin-left: 800px;
+    margin-top: 30px;
+
+}
+
+.add-section{
+    padding: 80px var(--padding-inline-section) 0;
+    background-image: url(./assests/asset\ 29.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+    
+
+.add-area{
+    flex-wrap: wrap;
+    gap: 0%;
+    margin-top: 20px;
+    justify-content: space-evenly;
+}
+
+.add-card{
+    flex-direction: column;
+    gap: 20px;
+    max-width: 30%;
+    text-align: center;
+    margin-left: 50px;
+}
+
+#emails{
+    width:40%;
+    height: 40px;
+    margin-top: 30px;
+}
+
+#names{
+    width:40%;
+    height: 40px;
+    margin-top: 30px;
+   
+}
+
+#sub{
+    width: 80%;
+    height:40px;
+    margin-top: 30px;
+}
+
+#textarea{
+    width: 80%;
+    height:40px;
+    margin-top: 30px;
+}
+
+
+/* fotter */
+
+.fotter{
+    width: 100%;
+    height: 300px;
+    background-color: #183b56;
+    color: white;
+    
+}
+
+.foottter{
+    border-bottom: solid white;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+
+.foot1{
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+.foot2{
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+.foot3{
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+.foot4{
+    margin-left: 40px;
+    margin-top: 30px;
+
+}
+
+.foot4 pre i{
+    color: white;
+}
+
